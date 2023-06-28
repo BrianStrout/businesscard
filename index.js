@@ -1,6 +1,8 @@
 const menuBall = document.querySelector(".call__in");
 const menuLinks = Array.from(document.querySelectorAll(".menu__item"));
-
+window.onload = () => {
+  window.scrollTo(0, 1);
+};
 let showCasing = false;
 let menuCasing = false;
 
@@ -28,7 +30,7 @@ menuLinks.forEach((link, index) => {
   let backwards = menuLinks.length - index - 1;
   let backAdjust = backwards * 24;
   let offsetAdjusted = link.offsetTop - backAdjust;
-  let jumpUp = offsetAdjusted * -1;
+  let jumpUp = (offsetAdjusted + 120) * -1;
   console.table(index, jumpUp);
 
   link.addEventListener("click", (e) => {

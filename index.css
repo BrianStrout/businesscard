@@ -34,7 +34,7 @@
 
 .call__in {
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   left: calc(50% - 25px);
   width: 50px;
   aspect-ratio: 1/1;
@@ -294,9 +294,10 @@ ul {
   transition: all 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 24px;
+  padding-top: 24px;
   pointer-events: none;
 }
 .menu__list .menu__item {

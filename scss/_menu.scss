@@ -8,9 +8,10 @@
   transition: all 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 24px;
+  padding-top: 24px;
   pointer-events: none;
   // background-color: pink;
   .menu__item {
