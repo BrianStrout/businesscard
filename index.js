@@ -30,7 +30,7 @@ menuLinks.forEach((link, index) => {
   let backwards = menuLinks.length - index - 1;
   let backAdjust = backwards * 24;
   let offsetAdjusted = link.offsetTop - backAdjust;
-  let jumpUp = (offsetAdjusted + 120) * -1;
+  let jumpUp = offsetAdjusted * -1 - 120;
   console.table(index, jumpUp);
 
   link.addEventListener("click", (e) => {
