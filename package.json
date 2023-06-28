@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "esbuild": "^0.18.10",
+    "intersection-observer": "^0.12.2",
+    "sass": "^1.63.6"
+  },
+  "scripts": {
+    "build": "esbuild index.js --bundle --minify --outfile=bundle.js"
+  }
+}
