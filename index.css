@@ -318,6 +318,10 @@ ul {
   transition: all 0.5s ease-out;
   top: 0;
 }
+.menu__list .menu__item.showcase {
+  transform: none;
+  opacity: 1;
+}
 .menu__list .menu__item::before {
   content: attr(data-text);
   white-space: nowrap;

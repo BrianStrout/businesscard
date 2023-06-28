@@ -26,6 +26,10 @@
     font-weight: 700;
     text-transform: uppercase;
     -webkit-text-stroke: 0.1vw #f6c4a1;
+    &.showcase {
+      transform: none;
+      opacity: 1;
+    }
 
     &::before {
       content: attr(data-text);
